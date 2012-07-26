@@ -1,4 +1,12 @@
+#Region ;**** Directives created by AutoIt3Wrapper_GUI ****
+#AutoIt3Wrapper_Outfile=bin\bth.exe
+#AutoIt3Wrapper_Compression=4
+#AutoIt3Wrapper_Res_requestedExecutionLevel=highestAvailable
+#Tidy_Parameters=/sfc
+#EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
+Opt('MustDeclareVars', 1)
 #include <String.au3>
+Global $oldT, $blockSize, $strBin, $filename, $errStatus, $file, $fileSize, $allBytes, $maxk, $beg, $bs, $adr, $dd, $timerD
 $oldT = 0
 $blockSize = 64
 $strBin = ''
